@@ -8,7 +8,7 @@
 
 html,
 body {
-    background-color: #5831a0;
+    background-color: #111111;
     font: normal 11pt Raleway, "Century Gothic", "Century Gothic", sans-serif, Arial;
     color: #DCDCDC;
 }
@@ -26,11 +26,9 @@ body {
     width: 200px;
     padding: 10px 0px;
     position:relative;
-    top: 25%;
-    left: 45%;
+    top: 370px;
+    left: 730px;
     border: none;
-    /* border: 1px solid #000000; */
-    /* border-radius: 5px; */
     background-color: #00000000;
     color: #563f0a;
     font-size: 46px;
@@ -38,7 +36,6 @@ body {
 }
 
 #startOverlay #startButton:hover {
-    /* background-color: #997112; */
     color: #5831a0;
     cursor:pointer;
 }
@@ -66,7 +63,7 @@ a:hover {
 
 #viewport {
     background-color: #000000;
-    border: 2px solid #f8b61d;
+    border: 2px solid #444444;
     border-radius: 10px;
     cursor: none;
 }

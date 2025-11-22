@@ -1,0 +1,76 @@
+/* CSS DOCUMENT */
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+html,
+body {
+    background-color: #5831a0;
+    font: normal 11pt Raleway, "Century Gothic", "Century Gothic", sans-serif, Arial;
+    color: #DCDCDC;
+}
+
+#startOverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000055;
+}
+
+#startOverlay #startButton {
+    width: 200px;
+    padding: 10px 0px;
+    position:relative;
+    top: 25%;
+    left: 45%;
+    border: none;
+    /* border: 1px solid #000000; */
+    /* border-radius: 5px; */
+    background-color: #00000000;
+    color: #563f0a;
+    font-size: 46px;
+    font-family: 'Raleway', "Century Gothic", sans-serif;
+}
+
+#startOverlay #startButton:hover {
+    /* background-color: #997112; */
+    color: #5831a0;
+    cursor:pointer;
+}
+
+h1 {
+    margin-top: 5px;
+    font: normal 60pt Lobster, "Century Gothic", "Century Gothic", sans-serif, Arial;
+    color: #f185b3;
+    text-align: center;
+    /* text-shadow: -1px -1px 0px #000000; */
+}
+
+a {
+    color: #0D7377;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #14FFEC;
+}
+
+#wrapper {
+    margin: 10px auto 0px auto;
+}
+
+#viewport {
+    background-color: #000000;
+    border: 2px solid #f8b61d;
+    border-radius: 10px;
+    cursor: none;
+}
+
+#GamePad {
+    padding: 10px 0px;
+}
